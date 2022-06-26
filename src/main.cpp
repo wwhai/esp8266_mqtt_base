@@ -47,13 +47,13 @@ void setup()
       delay(2000);
     }
   }
-  if (client.connected())
-  {
-    client.publish(topic, "Hello From ESP8266D1001!");
-  }
 }
 
 void loop()
 {
+  // if (client.connected())
+  // {
+  //   client.publish(topic, "Hello From ESP8266D1001!");
+  // }
   client.loop();
 }
