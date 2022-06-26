@@ -4,7 +4,7 @@
 const char *ssid = "deep-dark-in";
 const char *password = "665544332211";
 const char *mqtt_broker = "119.91.206.97";
-const char *topic = "things/devices/ESP8266D1001";
+const char *topic = "things/device/ESP8266D1001";
 const int mqtt_port = 1883;
 //---------------------------------------------------------
 WiFiClient espClient;
